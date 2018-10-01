@@ -86,7 +86,7 @@ fi
 # Install pylint
 if [ "$pylint" == "yes" ]
 	then
-  echo ' Install pyint'
+  echo 'Installing pylint'
   pylint_dev_install='[dev-packages]\
   pylint = "*"\
   \
